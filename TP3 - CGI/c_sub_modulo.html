@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Subir Modulo</title>
+	<LINK REL="Stylesheet" HREF="estilo.css" TYPE="text/css">
+</head>
+<body>
+
+	<div id="encabezado">
+						Sistemas Operativos II - TP3 - WebServer<br>
+						<span style="font-size:16pt;">Subir Modulo</span>
+	</div>
+	<div id="bajosombra"></div>
+	<div id="contenido">
+		<center>
+			<form action='/cgi-bin/c_upload_archivo.cgi' method="post" enctype="multipart/form-data">
+				<input type="file" name="archivo"><br><br>
+				<input class="boton" type="submit" name="Enviar" value="Enviar archivo">
+			</form>			
+		</center>
+	</div>
+
+
+</body>
+</html>

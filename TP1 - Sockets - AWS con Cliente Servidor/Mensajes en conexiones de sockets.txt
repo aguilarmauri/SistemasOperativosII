@@ -1,0 +1,8 @@
+Mensajes en conexiones de sockets
+_________________________________
+
+Conexion refused: Cuando la ip o el puerto estan mal
+
+Violación de segumento: Cuando se cierra el servidor antes que los clientes, y se intenta reiniciarlo
+
+Address already in use: Cuando el puerto todavía no se libero

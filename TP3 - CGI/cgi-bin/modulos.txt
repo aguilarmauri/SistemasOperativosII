@@ -1,0 +1,10 @@
+Module                  Size  Used by
+bnep                   20480  2
+pci_stub               16384  1
+vboxpci                24576  0
+vboxnetadp             28672  0
+vboxnetflt             28672  0
+vboxdrv               454656  3 vboxnetadp,vboxnetflt,vboxpci
+drbg                   32768  1
+ansi_cprng             16384  0
+ctr                    16384  1

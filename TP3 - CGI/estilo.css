@@ -1,0 +1,74 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #DBDBD4;
+	text-align: center;
+}
+
+#encabezado{
+	margin: 0px;
+	padding: 0px;
+	background: #009688;
+	color: white;
+	font-family: Arial;
+	font-size: 34pt;
+	height: 150px; /*   95px whatsapp   */
+	text-align: center;
+
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.26);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.26);
+}
+
+#bajosombra{
+	background: white;
+	width: 80%;
+	margin-left: 10%;
+	height: 8px;
+	font-size: 18pt;
+	position:relative;
+	z-index:-1;
+}
+
+#contenido{
+	background: white;
+	width: 80%;
+	margin-left: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-size: 18pt;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+	width: 250px;
+	height: 30px;
+	padding: 5px;
+	margin-bottom: 10px;
+	color: white;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.26);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.26);
+}
+
+.amarillo{
+	background: #FEC864;
+}
+
+.azul{
+	background: #3BBDE1;
+}
+
+.rojo{
+	background: #EF644D;
+}
+
+.boton{
+	height: 50px;
+	width: 100px;
+}
